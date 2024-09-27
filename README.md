@@ -1,14 +1,17 @@
-          BÁO CÁO THỰC HÀNH KIẾN TRÚC MÁY TÍNH
-Vấn đề 4: Postscript CNC Marsbot
+          COMPUTER ARCHITECTURE PRACTICE REPORT  
+          Issue 4: Postscript CNC Marsbot  
 
-Thành viên: + ĐỖ Hoàng Đông
-            + Nguyễn Anh Minh
-            
-Sử dụng ngôn ngữ lập trình: Assembly Language
-Mô tả vấn đề:
-Sử dụng MarsBot Tool trong phần mềm MARS MIPS để vẽ các từ   'DCE', 'SoICT' và một hình dạng tự chọn (tối thiểu 10 đường cắt) 
-• Tạo postscript theo cấu trúc <góc chuyển động>, <thời gian>, <cắt/không cắt> được lưu trữ cố định bên trong mã nguồn để vẽ các từ nói trên 
-• Mã nguồn chứa 3 postscript và người dùng sử dụng 3 phím 0, 4, 8 trên bàn phím Key Matrix của Digital Lab Sim để chọn postscript được gia công:  
-    + Phím 0: chương trình sẽ thực thi message1 (vẽ từ DCE) 
-    + Phím 4: chương trình sẽ thực thi message2 (vẽ từ SoICT) 
-    + Phím 8: chương trình sẽ thực thi message3 (vẽ từ I Love HUST)
+Members:  
+          + Đỗ Hoàng Đông  
+          + Nguyễn Anh Minh  
+
+Programming Language: Assembly Language  
+
+Problem Description:  
+
+Using the MarsBot Tool in the MARS MIPS software to draw the words 'DCE', 'SoICT', and a custom shape (minimum 10 cuts).  
+• Create a postscript with the structure `<motion angle>, <time>, <cut/no cut>` stored directly in the source code to draw the specified words.  
+• The source code contains 3 postscripts, and the user uses the keys 0, 4, 8 on the Key Matrix of the Digital Lab Sim to select the postscript for processing:  
+          + Key 0: The program will execute message1 (draw 'DCE')  
+          + Key 4: The program will execute message2 (draw 'SoICT')  
+          + Key 8: The program will execute message3 (draw 'I Love HUST')  
