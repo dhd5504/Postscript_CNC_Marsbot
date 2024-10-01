@@ -14,4 +14,4 @@ Using the MarsBot Tool in the MARS MIPS software to draw the words 'DCE', 'SoICT
 • The source code contains 3 postscripts, and the user uses the keys 0, 4, 8 on the Key Matrix of the Digital Lab Sim to select the postscript for processing:  
           + Key 0: The program will execute message1 (draw 'DCE')  
           + Key 4: The program will execute message2 (draw 'SoICT')  
-          + Key 8: The program will execute message3 (draw 'I Love HUST')  
+          + Key 8: The program will execute message3 (draw 'I Love HUST') .
